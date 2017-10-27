@@ -1,0 +1,20 @@
+;; shadow-cljs configuration
+{  
+  :source-paths ["src"]
+
+  :dependencies  []
+
+  :builds
+  { :main 
+    { :target :node-script
+      :output-to "resources/main.js"
+      :main main.main/init}}}
+    
+    ; :renderer                
+    ; { :target :browser
+    ;   :output-dir "resources/js"
+    ;   :asset-path "js"
+
+    ;   :modules 
+    ;   { :renderer {:entries []}}}]}      
+      

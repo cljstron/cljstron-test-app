@@ -1,0 +1,27 @@
+{
+    "name": "@cljstron/cljstron-test-app",
+    "version": "0.0.1",
+    "description": "Test application for CLJStron with stored NPM modules",
+    "main": "resources/main.js",
+    "author": "Ivan Pierre, (2017)kilroySoft",
+    "license": "MIT",
+    "keywords": [
+        "electron",
+        "clojurescript",
+        "cljstron"
+    ],
+    "homepage": "https://github.com/cljstron/cljstron-test-app/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cljstron/cljstron-test-spp.git"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "shadow-cljs": "^2.0.45",
+        "cljstron": "^0.0.1",
+        "cljstron-simple": "^0.0.1"
+    },
+    "devDependencies": {}
+}
